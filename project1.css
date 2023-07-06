@@ -1,0 +1,87 @@
+ /* .head{
+    background-color: rgb(0, 0, 0);} */
+*{
+    margin: 0px;
+}
+    
+    
+
+
+.container{
+    background-color: rgba(14, 13, 13, 0.89);
+display: flex;
+justify-content: space-around;
+
+ 
+}
+.logo{
+    width: 170px;
+    padding-top:  20px;
+    margin: 5px;
+    padding-left: 0px;
+    padding-right: 750px;
+}
+.home-container{
+    color: aliceblue;
+display: flex;
+
+font-size: larger;
+list-style: none;;
+align-items: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    margin: 10px;
+}
+
+.home-container:hover{
+    color:gold
+}
+.btn{
+    background-color: rgb(138, 4, 4);
+    color: white;
+    width: 120px;
+    height: 35px;
+    margin-top: 3px;
+    /* background-position: 0% 50%; */
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    
+}
+.bannerimg{
+    width: 500px;
+    margin-top: 65px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid gray; */
+    color: white;
+    background-image: url("./background.png") ,linear-gradient(180deg,black,grey);
+
+    }
+/* .h1div{
+    padding: 10px;
+    margin-top: 40px;
+} */
+.paragraph{
+    font-size: 30px;
+}
+.aboutpic{
+    width: 400px;
+}
+.section{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.btn2{
+    background-color: maroon;
+border-radius: 5px ;    
+    border: 2px solid black;
+}
